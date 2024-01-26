@@ -1,0 +1,174 @@
+body {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(41, 1, 1, 0.856);
+    color: white;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    color: orange;
+    margin: 0 0 0 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    list-style: none;
+    text-decoration: none;
+    padding: 12px;
+    margin: 12px;
+    color: white;
+    font-size: 21px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.firstsection {
+
+    margin: 100px 20px 0px 90px;
+
+}
+
+.firstsection h1 {
+    font-size: 30px;
+
+}
+
+.firstsection p {
+    font-size: 16px;
+
+}
+
+
+
+.btn {
+    text-decoration: none;
+    background-color: red;
+    font-size: 22px;
+
+    color: white;
+    padding: 8px;
+
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: grey;
+
+
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.secondsection {
+    margin: 40px 0 0px 90px;
+}
+
+.firstbtn {
+    text-decoration: none;
+    font-size: 22px;
+    background-color: grey;
+    color: black;
+    padding: 9px 21px;
+    margin-right: 35px;
+}
+
+.firstbtn:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.thirdsection {
+    background-color: white;
+    color: black;
+}
+
+
+.heading {
+
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    height: 140px;
+    weight: 130px;
+}
+
+.secondbtn {
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    background-color: red;
+    padding: 8px 16px;
+    margin: 20px 0px;
+
+}
+
+.secondbtn:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+
+    font-size: 15px;
+}
+
